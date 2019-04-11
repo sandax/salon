@@ -1,14 +1,96 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>galerie salon</title>
+    <title>Galerie salon</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
 </head>
+
 <body>
-    modificare
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/baguetteBox.min.css'>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+
+    <div class="container">
+        <div class="container gallery-container">
+            <h1 class="text-center">Galerie Salon</h1>
+            <p class="page-description text-center"></p>
+            <div class="tz-gallery">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0194.JPG">
+                                <img src="poze/IMG_0194.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0195.JPG">
+                                <img src="poze/IMG_0195.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0197.JPG">
+                                <img src="poze/IMG_0197.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>                
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0215.JPG">
+                                <img src="poze/IMG_0215.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0239.JPG">
+                                <img src="poze/IMG_0239.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0258.JPG">
+                                <img src="poze/IMG_0258.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0260.JPG">
+                                <img src="poze/IMG_0260.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0262.JPG">
+                                <img src="poze/IMG_0262.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="poze/IMG_0273.JPG">
+                                <img src="poze/IMG_0273.JPG" alt="" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 </body>
+
 </html>
